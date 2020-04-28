@@ -5,7 +5,11 @@ class Shoe
   BRANDS = []
   
   def brand=(brand)
-    BRANDS << brand
+    if BRANDS.length >= 1 && BRANDS.last = brand
+      BRANDS
+    else
+      BRANDS << brand
+    end
   end
   
   def initialize(brand)
