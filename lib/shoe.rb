@@ -5,7 +5,7 @@ class Shoe
   BRANDS = []
   
   def brand=(brand)
-    if BRANDS.length >= 1 && BRANDS.last = brand
+    if BRANDS.length >= 1 && BRANDS.last == brand
       BRANDS
     else
       BRANDS << brand
